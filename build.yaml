@@ -18,16 +18,20 @@
 #
 ---
 include:
+  # Custom Layout BT
   - board: nice_nano_v2
     shield: charybdis_left
-    keymap: personal
+    keymap: charybdis
     format: bt
-    artifact-name: charybdis_personal_left
+    artifact-name: charybdis_custom_left
   - board: nice_nano_v2
     shield: charybdis_right
-    keymap: personal
+    keymap: charybdis
     format: bt
-    artifact-name: charybdis_personal_right
+    artifact-name: charybdis_custom_right
+    snippet: studio-rpc-usb-uart
+
+  # Firmware Reset (keep this for recovery purposes)
   - board: nice_nano_v2
     shield: settings_reset
     format: reset
