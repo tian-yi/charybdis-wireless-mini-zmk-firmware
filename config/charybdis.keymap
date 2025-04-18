@@ -191,7 +191,7 @@
 // ╭──────────────┬────────────┬─────────────┬────────────┬────────────┬────────────╮  ╭────────────┬────────────┬────────────┬────────────┬───────────────┬──────────────╮
     &none          &kp V         &kp W         &kp G         &kp M         &kp J            &kp SEMICOLON &kp COMMA    &kp PERIOD   &kp MINUS    &kp EQUAL       &none
 // ├──────────────┼────────────┼─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┼────────────┼───────────────┼──────────────┤
-    &none          &hm_left LCTRL S   hm_left LSHIFT N  &hm_left LGUI T  &hm_left LALT H    &kp K     &kp SLASH    &hm_right RALT A    &hm_right RGUI E    &hm_right RSHIFT I  &hm_right RCTRL C     &none
+    &none          &hm_left LCTRL S   &hm_left LSHIFT N  &hm_left LGUI T  &hm_left LALT H    &kp K     &kp SLASH    &hm_right RALT A    &hm_right RGUI E    &hm_right RSHIFT I  &hm_right RCTRL C     &none
 // ├──────────────┼────────────┼─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┼────────────┼───────────────┼──────────────┤
     &none          &kp F         &kp P         &kp D         &kp L         &kp X            &kp SQT      &kp U    &td_scroll_slow  &kp Y         &kp B           &none
 // ╰──────────────┴────────────┴─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┴────────────┴───────────────┴──────────────╯
