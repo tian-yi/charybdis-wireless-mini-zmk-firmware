@@ -30,7 +30,7 @@
     trackball_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&vtrackball>;
-        layers = <0 1 2>;
+        layers = <0 1 2 3 4>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -193,7 +193,7 @@
 // ├──────────────┼────────────┼─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┼────────────┼───────────────┼──────────────┤
     &none          &hm_left LCTRL S   &hm_left LSHIFT N  &hm_left LGUI T  &hm_left LALT H    &kp K     &kp SLASH    &hm_right RALT A    &hm_right RGUI E    &hm_right RSHIFT I  &hm_right RCTRL C     &none
 // ├──────────────┼────────────┼─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┼────────────┼───────────────┼──────────────┤
-    &none          &kp F         &kp P         &kp D         &kp L         &kp X            &kp SQT      &kp U    &td_scroll_slow  &kp Y         &kp B           &none
+    &none          &kp F         &kp P         &kp D         &kp L         &kp X         &td_scroll_slow  &kp U        &kp O      &kp Y         &kp B           &none
 // ╰──────────────┴────────────┴─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┴────────────┴───────────────┴──────────────╯
                                                &lt NAV R   &lt SYM BSPC   &mkp LCLK     &lt NAV TAB		&td_space
 //                                           ╰────────────┴────────────┴────────────╯  ╰────────────┴────────────┴
