@@ -43,12 +43,12 @@
         };
 
         ToSettings {
-            bindings = <&tg	3>;
+            bindings = <&tog 3>;
             key-positions = <36 37 38>;
         };
 
         ToMouse {
-            bindings = <&tg	4>;
+            bindings = <&tog 4>;
             key-positions = <39 40>;
         };
     };
