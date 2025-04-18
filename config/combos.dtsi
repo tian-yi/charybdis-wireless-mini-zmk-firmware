@@ -15,7 +15,7 @@
 
         RightClick {
             bindings = <&mkp RCLK>;
-            key-positions = <16 37>;
+            key-positions = <29 37>;
         };
 
         RightParen {
@@ -46,15 +46,5 @@
             bindings = <&td_bore>;
             key-positions = <38 39>;
         };
-
-        // GameLayer {
-        //     bindings = <&tog 4>;
-        //     key-positions = <8 9>;
-        // };
-
-        // PhotoLayer {
-        //     bindings = <&tog 5>;
-        //     key-positions = <2 3>;
-        // };
     };
 };
