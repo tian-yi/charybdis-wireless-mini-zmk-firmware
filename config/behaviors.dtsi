@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <85>;
-            bindings = <&lt 2 SPACE>, <&kp SPACE>; // hold, tap, double_tap
+            bindings = <&lt 1 SPACE>, <&kp SPACE>; // hold, tap, double_tap
         };
 
         td_bs: td_bs {
@@ -65,12 +65,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <250>;
             bindings = <&mkp RCLK>, <&mo 9>;  // tap/hold, double_tap
-        };
-
-        td_bore: BASE_or_EXTRA {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <&mo 6>, <&to 0>;
         };
 
         td_grave: DoubleTap_Grave {

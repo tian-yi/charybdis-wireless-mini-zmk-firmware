@@ -42,9 +42,14 @@
             layers = <3>;
         };
 
-        BASE_or_EXTRAS {
-            bindings = <&td_bore>;
-            key-positions = <38 39>;
+        ToSettings {
+            bindings = <&tg	3>;
+            key-positions = <36 37 38>;
+        };
+
+        ToMouse {
+            bindings = <&tg	4>;
+            key-positions = <39 40>;
         };
     };
 };
