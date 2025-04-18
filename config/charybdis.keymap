@@ -91,7 +91,7 @@
         td_scroll_slow: td_scroll_or_slow {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&lt 6 O>, <&mo 7>;
+            bindings = <&lt 6 O>, <&mo 5>;
         };
     };
 

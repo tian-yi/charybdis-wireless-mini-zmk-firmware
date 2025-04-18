@@ -15,7 +15,7 @@
 
         RightClick {
             bindings = <&mkp RCLK>;
-            key-positions = <29 37>;
+            key-positions = <29 38>;
         };
 
         RightParen {
