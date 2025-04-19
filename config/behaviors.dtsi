@@ -94,7 +94,6 @@
         lt_mouse: lt_mouse {
       compatible = "zmk,behavior-tap-dance";
       #binding-cells = <0>;
-      flavor = "balanced";
       tapping-term-ms = <200>;
       bindings = <&mo 6>, <&mkp LCLK>;
     };
