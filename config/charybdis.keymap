@@ -93,6 +93,12 @@
             #binding-cells = <0>;
             bindings = <&lt 6 SQT>, <&mo 5>;
         };
+
+        dot_scroll_slow: dot_scroll_or_slow {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&lt 6 PERIOD>, <&mo 5>;
+        };
     };
 
     macros {
@@ -189,7 +195,7 @@
             label = "Base";
             bindings = <
 // ╭──────────────┬────────────┬─────────────┬────────────┬────────────┬────────────╮  ╭────────────┬────────────┬────────────┬────────────┬───────────────┬──────────────╮
-    &none          &kp V         &kp W         &kp G         &kp M         &kp J            &kp SEMICOLON &kp COMMA    &kp PERIOD   &kp MINUS    &kp EQUAL       &none
+    &none          &kp V         &kp W         &kp G         &kp M         &kp J            &kp SEMICOLON &kp COMMA    &dot_scroll_slow   &kp MINUS    &kp EQUAL       &none
 // ├──────────────┼────────────┼─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┼────────────┼───────────────┼──────────────┤
     &none          &hm LCTRL S   &hm LSHIFT N  &hm LGUI T  &hm LALT H    &kp K     &kp SLASH    &hm RALT A    &hm RGUI E    &hm RSHIFT I  &hm RCTRL C     &none
 // ├──────────────┼────────────┼─────────────┼────────────┼────────────┼────────────┤  ├────────────┼────────────┼────────────┼────────────┼───────────────┼──────────────┤
@@ -250,7 +256,7 @@
 mouse_layer {
     bindings = <
 // ╭─────┬───────┬────────┬───────┬───────┬──────╮  ╭───────┬──────────────┬──────────────┬──────────────┬──────────────┬────────────╮
-    &msc MOVE_LEFT &msc MOVE_UP   &msc MOVE_DOWN &msc MOVE_RIGHT &none &none &none  &none   &none    &none   &none  &none
+    &msc MOVE_LEFT &msc MOVE_UP   &msc MOVE_DOWN &msc MOVE_RIGHT &none &none &none  &none   &mo 6   &none   &none  &none
 // ├─────┼───────┼────────┼───────┼───────┼──────┤  ├───────┼──────────────┼──────────────┼──────────────┼──────────────┼────────────┤
     &mmv MOVE_LEFT &mmv MOVE_UP   &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none &none  &kp LG(LEFT_BRACKET) &kp LG(RIGHT_BRACKET)  &none   &none  &none
 // ├─────┼───────┼────────┼───────┼───────┼──────┤  ├───────┼──────────────┼──────────────┼──────────────┼──────────────┼────────────┤
