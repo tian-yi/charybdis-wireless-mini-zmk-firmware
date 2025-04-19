@@ -98,7 +98,5 @@
             tapping-term-ms = <125>;
 					  bindings = <&mo 6>, <&mkp LCLK>;
         };
-
-    };
     };
 };
