@@ -90,5 +90,14 @@
             #binding-cells = <0>;
             bindings = <&kp FSLH>, <&home_macro>;
         };
+
+        lt_mouse: lt_mouse {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      flavor = "balanced";          /* or whatever you prefer */
+      tapping-term-ms = <200>;
+      bindings = <&mo 6>,           /* hold‑action  = layer 4 */
+                 <&mkp MB1>;        /* tap‑action   = left click */
+    };
     };
 };
