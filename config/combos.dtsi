@@ -105,7 +105,7 @@
         };
         combo_home {
             timeout-ms = <50>;
-            key-positions = <19 20>;
+            key-positions = <18 19>;
             bindings = <&home_macro>;
         };
         combo_lm {
