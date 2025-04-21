@@ -98,5 +98,25 @@
             tapping-term-ms = <125>;
 					  bindings = <&mo>, <&mkp>;
         };
+        rpi: require_prior_idle {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            require-prior-idle-ms = <100>;
+            bindings = <&kp>, <&kp>;
+        };
+
+        td_scroll_slow: td_scroll_or_slow {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&lt 6 SQT>, <&mo 5>;
+        };
+
+        dot_scroll_slow: dot_scroll_or_slow {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&lt 6 PERIOD>, <&mo 5>;
+        };
     };
 };

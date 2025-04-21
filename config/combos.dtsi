@@ -51,5 +51,81 @@
             bindings = <&tog 4>;
             key-positions = <39 40>;
         };
+
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&kp ESC>;
+        };
+
+        combo_enter {
+            timeout-ms = <50>;
+            key-positions = <30 31>;
+            bindings = <&kp ENTER>;
+        };
+
+        combo_q {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            bindings = <&kp Q>;
+        };
+
+        combo_qu {
+            timeout-ms = <50>;
+            key-positions = <2 3>;
+            bindings = <&qu>;
+        };
+        combo_mp {
+            timeout-ms = <50>;
+            key-positions = <3 4>;
+            bindings = <&mp>;
+        };
+        combo_z {
+            timeout-ms = <50>;
+            key-positions = <25 26>;
+            bindings = <&kp Z>;
+        };
+
+        combo_psql {
+            timeout-ms = <50>;
+            key-positions = <27 28>;
+            bindings = <&psql>;
+        };
+
+        combo_ff {
+            timeout-ms = <50>;
+            key-positions = <26 27>;
+            bindings = <&ff>;
+        };
+        combo_home {
+            timeout-ms = <50>;
+            key-positions = <19 20>;
+            bindings = <&home_macro>;
+        };
+        combo_lm {
+            timeout-ms = <50>;
+            key-positions = <20 21>;
+            bindings = <&lm>;
+        };
+        combo_llm {
+            timeout-ms = <50>;
+            key-positions = <21 22>;
+            bindings = <&llm>;
+        };
+        combo_minus {
+            timeout-ms = <50>;
+            key-positions = <8 9>;
+            bindings = <&minus_macro>;
+        };
+        combo_equal {
+            timeout-ms = <50>;
+            key-positions = <7 8>;
+            bindings = <&equal_macro>;
+        };
+        combo_plus {
+            timeout-ms = <50>;
+            key-positions = <9 10>;
+            bindings = <&plus_macro>;
+        };
     };
 };
