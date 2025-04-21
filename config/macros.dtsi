@@ -62,7 +62,7 @@
             bindings = <&kp Q &kp U>;
         };
         sp: sp {
-            label = "qu";
+            label = "sp";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp P>;
