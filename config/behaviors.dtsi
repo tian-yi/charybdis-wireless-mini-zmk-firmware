@@ -92,17 +92,5 @@
             tapping-term-ms = <125>;
 					  bindings = <&mo>, <&mkp>;
         };
-
-        td_scroll_slow: td_scroll_or_slow {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <&lt 6 SQT>, <&mo 5>;
-        };
-
-        dot_scroll_slow: dot_scroll_or_slow {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            bindings = <&lt 6 PERIOD>, <&mo 5>;
-        };
     };
 };
