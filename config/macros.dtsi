@@ -68,11 +68,11 @@
             bindings = <&kp S &kp P>;
         };
 
-        psql: psql {
-            label = "psql";
+        sql: sql {
+            label = "sql";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp S &kp Q &kp L>;
+            bindings = <&kp S &kp Q &kp L>;
         };
 				mp: mp {
             label = "mp";
