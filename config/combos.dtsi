@@ -82,13 +82,13 @@
         };
         combo_sp {
             timeout-ms = <50>;
-            key-positions = <25 26>;
+            key-positions = <26 27>;
             bindings = <&sp>;
         };
 
         combo_z {
             timeout-ms = <50>;
-            key-positions = <24 25>;
+            key-positions = <25 26>;
             bindings = <&kp Z>;
         };
 
