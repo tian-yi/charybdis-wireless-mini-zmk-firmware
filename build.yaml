@@ -5,13 +5,13 @@
 # pass flags to the build command and `artifact-name` to assign a name to
 # distinguish build outputs from each other:
 #
-# board: [ "nice_nano" ]
+# board: [ "nice_nano_v2" ]
 # shield: [ "corne_left", "corne_right" ]
 # include:
 #   - board: bdn9_rev2
-#   - board: nice_nano
+#   - board: nice_nano_v2
 #     shield: reviung41
-#   - board: nice_nano
+#   - board: nice_nano_v2
 #     shield: corne_left
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
@@ -19,12 +19,12 @@
 ---
 include:
   # Custom Layout BT
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: charybdis_left
     keymap: charybdis
     format: bt
     artifact-name: charybdis_custom_left
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: charybdis_right
     keymap: charybdis
     format: bt
@@ -32,7 +32,7 @@ include:
     snippet: studio-rpc-usb-uart
 
   # Firmware Reset (keep this for recovery purposes)
-  - board: nice_nano
+  - board: nice_nano_v2
     shield: settings_reset
     format: reset
-    artifact-name: firmware_reset_nano
+    artifact-name: firmware_reset_nano_v2

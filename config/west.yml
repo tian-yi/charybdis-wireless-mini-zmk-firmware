@@ -7,16 +7,16 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: 0b5a103c187ad337b9f50d824667866c4d7252e1
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: badjeff
-      revision: main
+      revision: 14d39b7a6944d1014544a2382707b14724c22f49
     - name: zmk-split-peripheral-input-relay
       remote: badjeff
-      revision: main
+      revision: f49a5ca22a7b5626e37cffc73e97e64945bf9eb0
     - name: zmk-input-behavior-listener
       remote: badjeff
-      revision: main
+      revision: 80fc27026a28b99b6d3301898bcd894675e4e8a3
   self:
     path: config
